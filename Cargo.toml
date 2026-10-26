@@ -1,0 +1,9 @@
+[package]
+name = "algobharat-agent-identity-ai"
+version = "1.0.0"
+edition = "2021"
+authors = ["Martin Luther <martinlutherupa1@gmail.com>"]
+description = "ARC-compliant on-chain sovereign agent identity"
+license = "MIT"
+
+[dependencies]

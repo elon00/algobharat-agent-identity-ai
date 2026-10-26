@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "algobharat-agent-identity-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "HACKATHON_TRACK": "Algorand",
+        "PROJECT_TICKER": "ABID"
+      },
+      "tools": [
+        {
+          "name": "verify_abid_invariants",
+          "description": "Verifies deterministic invariants for AlgoBharat Agent Identity AI on Algorand."
+        },
+        {
+          "name": "execute_abid_action",
+          "description": "Executes authenticated Identity state transition."
+        }
+      ]
+    }
+  }
+}
